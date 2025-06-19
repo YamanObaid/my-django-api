@@ -14,4 +14,4 @@ class NoteCreateView(APIView):
         return Response(serializer.errors, status=status.HTTP_400_BAD_REQUEST)
 
 def hello(request):
-    return JsonResponse({"message": "Hello from Render!"})
+    return JsonResponse({"message": "Hello from Railway!"})
